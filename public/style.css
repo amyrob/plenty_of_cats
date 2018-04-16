@@ -1,0 +1,51 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #43BCCD;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+header {
+  width: auto;
+  text-align: center;
+  color: white;
+  height: 250px;
+}
+
+header h1 {
+  font-size: 80px;
+  font-family: 'Dokdo', cursive;
+  margin: 20px;
+  margin-top: 0px;
+
+}
+
+header h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  margin: 10px;
+}
+
+#cats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px;
+}
+
+#cats img {
+  margin: 5px;
+  margin-left: auto;
+  width: 550px;
+  height: 475px;
+  object-fit: cover;
+
+}
+
+ul {
+  list-style: none;
+  padding: 15px;
+  height: 570px;
+  background-color: white;
+  margin: 15px;
+}
